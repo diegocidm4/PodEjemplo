@@ -9,7 +9,7 @@ import XCTest
 @testable import PodEjemplo
 
 final class PodEjemploTests: XCTestCase {
-
+/*
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -32,5 +32,14 @@ final class PodEjemploTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+*/
+    var podEjemplo: PodEjemplo!
 
+        override func setUp() {
+            podEjemplo = PodEjemplo()
+        }
+
+        func testAdd() {
+            XCTAssertEqual(podEjemplo.add(a: 1, b: 1), 2)
+        }
 }

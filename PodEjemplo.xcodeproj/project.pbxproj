@@ -16,6 +16,10 @@
 		52F895032CDAC65D0094EA87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 52F895022CDAC65D0094EA87 /* Base */; };
 		52F895052CDAC6620094EA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F895042CDAC6620094EA87 /* Assets.xcassets */; };
 		52F895082CDAC6620094EA87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 52F895072CDAC6620094EA87 /* Base */; };
+		52F8950E2CDAC9A20094EA87 /* PodEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8950D2CDAC9A20094EA87 /* PodEjemplo.swift */; };
+		52F895102CDACE360094EA87 /* PodEjemplo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 52F8950F2CDACE360094EA87 /* PodEjemplo.podspec */; };
+		52F895132CDAD1540094EA87 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52F895112CDAD1530094EA87 /* README.md */; };
+		52F895142CDAD1540094EA87 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 52F895122CDAD1530094EA87 /* LICENCE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,10 @@
 		52F895042CDAC6620094EA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F895072CDAC6620094EA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F895092CDAC6620094EA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F8950D2CDAC9A20094EA87 /* PodEjemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodEjemplo.swift; sourceTree = "<group>"; };
+		52F8950F2CDACE360094EA87 /* PodEjemplo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodEjemplo.podspec; sourceTree = SOURCE_ROOT; };
+		52F895112CDAD1530094EA87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		52F895122CDAD1530094EA87 /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +100,11 @@
 		52F894DF2CDAC5190094EA87 /* PodEjemplo */ = {
 			isa = PBXGroup;
 			children = (
+				52F895122CDAD1530094EA87 /* LICENCE */,
+				52F895112CDAD1530094EA87 /* README.md */,
+				52F8950F2CDACE360094EA87 /* PodEjemplo.podspec */,
 				52F894E02CDAC5190094EA87 /* PodEjemplo.h */,
+				52F8950D2CDAC9A20094EA87 /* PodEjemplo.swift */,
 			);
 			path = PodEjemplo;
 			sourceTree = "<group>";
@@ -198,6 +210,7 @@
 				TargetAttributes = {
 					52F894DC2CDAC5190094EA87 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					52F894E42CDAC51A0094EA87 = {
 						CreatedOnToolsVersion = 15.4;
@@ -232,6 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F895142CDAD1540094EA87 /* LICENCE in Resources */,
+				52F895132CDAD1540094EA87 /* README.md in Resources */,
+				52F895102CDACE360094EA87 /* PodEjemplo.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F8950E2CDAC9A20094EA87 /* PodEjemplo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -463,6 +481,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -504,6 +524,7 @@
 		52F894F32CDAC51A0094EA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TTHDUHC2M8;
@@ -520,6 +541,7 @@
 		52F894F42CDAC51A0094EA87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TTHDUHC2M8;
