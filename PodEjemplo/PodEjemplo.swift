@@ -10,6 +10,8 @@ public final class PodEjemplo {
 
     let name = "PodEjemplo"
     
+    public init() {}
+    
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }
