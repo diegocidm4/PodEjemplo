@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PodEjemplo-PodEjemploTests/Pods-PodEjemplo-PodEjemploTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL

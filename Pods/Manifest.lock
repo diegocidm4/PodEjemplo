@@ -1,0 +1,24 @@
+PODS:
+  - BigInt (5.2.0)
+  - CryptoSwift (1.6.0)
+  - OpenSSL-Universal (1.1.1900)
+
+DEPENDENCIES:
+  - BigInt
+  - CryptoSwift (~> 1.6.0)
+  - OpenSSL-Universal (= 1.1.1900)
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - CryptoSwift
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  OpenSSL-Universal: 84efb8a29841f2764ac5403e0c4119a28b713346
+
+PODFILE CHECKSUM: 72cd6be57ec49cc34c7944b0433d4c03a5be7067
+
+COCOAPODS: 1.16.2
